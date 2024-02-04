@@ -14,17 +14,28 @@ ul li {
 
 
 /*  My CSS */
+
+body {
+    font-family: sans-serif;
+}
+
 .container {
+
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    outline: 1px solid red;
+}
+
+.section1 {
+    background-color: #1F2937;
 
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
+    outline: 2px solid orange;
+    padding: 10px;
 
 
 }
@@ -34,9 +45,51 @@ ul li {
     color: #F9FAF8;
 }
 
-.header ul {
+.nav {
     display: flex;
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+
+}
+
+.hero {
+    padding: 50px 10px;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    outline: 2px solid goldenrod;
+    flex: 1 1 200px;
+}
+
+.hero-text {
+
+    /* text-align: left; */
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+
+}
+
+.hero-text p {
+    padding: 10px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.hero button {
+    padding: 3px;
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.hero-img {
+    border-radius: 200px;
 }
