@@ -157,4 +157,12 @@ figcaption {
     padding: 6px;
     border-radius: 6px;
     font-weight: bold;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
 }
