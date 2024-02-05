@@ -16,7 +16,7 @@ ul li {
 /*  My CSS */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .container {
@@ -34,10 +34,9 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-    outline: 2px solid orange;
-    padding: 10px;
-
-
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 auto;
 }
 
 .logo {
@@ -47,7 +46,7 @@ body {
 
 .nav {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     font-size: 18px;
     color: #E5E7EB;
 
@@ -56,17 +55,13 @@ body {
 .hero {
     padding: 50px 10px;
     display: flex;
+    align-items: center;
     width: 1000px;
     margin: 0 auto;
     gap: 20px;
-    outline: 2px solid goldenrod;
     flex: 1 1 200px;
 }
 
-.hero-text {
-
-    /* text-align: left; */
-}
 
 .hero-text h1 {
     font-size: 48px;
@@ -76,20 +71,69 @@ body {
 }
 
 .hero-text p {
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 18px;
     color: #E5E7EB;
 
 }
 
 .hero button {
-    padding: 3px;
+    padding: 5px;
     background-color: #3882F6;
     color: #fff;
     border: none;
     border-radius: 6px;
 }
 
-.hero-img {
-    border-radius: 200px;
+.info {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.info-images {
+    display: flex;
+    gap: 67px;
+
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin: 10px auto;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.quote-author {
+    font-size: 0.8em;
 }
